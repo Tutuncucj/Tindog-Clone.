@@ -15,6 +15,7 @@ body {
 
 .container-fluid {
     padding: 3% 15%; 
+    
 } 
 
 .nav-position {
@@ -30,11 +31,12 @@ body {
 
 .item-padding {
     padding: 0 18px;
+  
 }
 
 .link-style {
     font-size: 1.2rem;
- 
+    
     font-weight: 300;
 }
 
@@ -67,15 +69,27 @@ h1 {
     .title-image {
         position: static;
         transform: rotate(0);
-        width: 60%;
+        width: 70%;
         transform: translateX(130px);
     }
 }
 
- @media screen and (max-width: 991px) {
+ @media screen and (max-width: 540px) {
     .title-image {
-      
         width: 50%;
+    }
+    .fixed-top{
+        position: static;
+    }
+    h1 {
+        font-size: 2.8rem;
+    }
+    .item-padding {
+        padding: 0.5rem;
+    }
+    .navbar-toggler {
+       position: absolute;
+        right: 3rem;
     }
 } 
 
